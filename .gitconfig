@@ -1,0 +1,16 @@
+[user]
+	name = Netanel Mizrahi
+	email = nmiz1987@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[rerere]
+	enabled = true
+[http]
+	postBuffer = 1024M
+[core]
+	editor = code
+[init]
+	defaultBranch = main
