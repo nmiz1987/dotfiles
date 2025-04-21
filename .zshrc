@@ -1,6 +1,6 @@
-echo ""
-echo "Hello Netanel!"
-echo ""
+echo "############################"
+echo "#      Hello Netanel!      #"
+echo "############################"
 
 eval "$(starship init zsh)"
 
@@ -22,6 +22,7 @@ alias ls='ls -F'
 alias me='cd ~/netanel'
 alias prj='cd ~/projects'
 alias wrk='cd ~/work'
+alias c='cursor'
 
 
 # ----------------------
@@ -89,7 +90,3 @@ load-nvmrc() {
 
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
-
-PATH=~/.console-ninja/.bin:$PATH
-# Added by Windsurf
-export PATH="/Users/netanelmizrahi/.codeium/windsurf/bin:$PATH"
